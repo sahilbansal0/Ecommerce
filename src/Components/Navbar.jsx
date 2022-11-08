@@ -16,7 +16,6 @@ const Navbar = ({ flag }) => {
     <input type="search" className='search' placeholder='serach....' />
 
 
-    <Link to='/cart' className='link'>Cart</Link>
 
 
     <Loginlogout flag={flag} />

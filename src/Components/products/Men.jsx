@@ -19,7 +19,7 @@ class  Men extends  React.Component{
 console.log(obj);
 return <div className='singlep'>
    <Link to={`/men/${obj.id}`}>
- <img src={obj.image}></img>
+ <img alt="d" src={obj.image}></img>
  </Link>
  <h3>{obj.title}</h3>
  <div className='rating'>Rating:{obj.rating.rate}({obj.rating.count})</div>
