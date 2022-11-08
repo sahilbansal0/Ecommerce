@@ -1,14 +1,12 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Loginlogout = ({flag}) => {
- const [state, setstate] = useState("login");
-  console.log('LoginLogout====>>>>>>')
-  
+const Loginlogout = ({ flag }) => {
+
   return (
     <div>
-      <Link to='/login' className='link'>{flag?"logout":"login"}</Link>
-      
+      <Link to='/login' className='link'>{flag ? "logout" : "login"}</Link>
+
     </div>
   );
 }
