@@ -9,7 +9,7 @@ const Home = () => {
   let d = JSON.parse(localStorage.getItem("token"));
   React.useEffect(() => {
     setFlag(d)
-  }, []);
+  }, [d]);
 
   return (
     <div>

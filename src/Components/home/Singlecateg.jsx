@@ -29,7 +29,7 @@ const Singlecateg = () => {
             return <div >
               <Link to={`/electronics/${data.id}`}>
 
-                <img src={data.img}></img>
+                <img alt="s" src={data.img}></img>
               </Link>
               <h3>{data.title}</h3>
 
@@ -48,7 +48,7 @@ const Singlecateg = () => {
             return <div >
               <Link to={`/men/${data.id}`}>
 
-                <img src={data.img}></img>
+                <img alt="sa" src={data.img}></img>
               </Link>
               <h3>{data.title}</h3>
 
@@ -63,10 +63,10 @@ const Singlecateg = () => {
       <fieldset>
         <legend>women</legend>
         <div className='onlyelect'>
-          {women.map((data) => {
+          {women?.map((data) => {
             return <div >
               <Link to={`/women/${data.id}`}>
-                <img src={data.img}></img>
+                <img alt="sd" src={data.img}></img>
               </Link>
               <h3>{data.title}</h3>
 
@@ -84,7 +84,7 @@ const Singlecateg = () => {
           {jwellery.map((data) => {
             return <div >
               <Link to={`/jewelery/${data.id}`}>
-                <img src={data.img}></img>
+                <img alt="sd" src={data.img}></img>
               </Link>
               <h3>{data.title}</h3>
 
